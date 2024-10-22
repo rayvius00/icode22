@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+
+.container{
+    background-color: white;
+    width: 900px;
+    height: 750px;
+    text-align: center;
+    display: grid;
+    grid-template-columns:700px 200px;
+    padding:20px;
+}
+
+.header,h2{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(73, 73, 246);
+}
+
+.imgbox{
+margin-top:100px ;
+margin-left:-500px;
+
+}
+
+.price{
+    display: grid;
+    grid-template-columns: 200px 100px;
+    margin-left:420px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buy{
+    background-color: white;
+    border-color: rgb(1, 1, 44);
+    border: 2px solid;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.box{
+   
+}
+
+.right{
+    margin-left: 800px;
+}
